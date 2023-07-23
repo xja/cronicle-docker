@@ -25,8 +25,8 @@ jobs:
       uses: docker/metadata-action@v4
       with:
         images: |
-          soulteary/cronicle
-          ghcr.io/soulteary/cronicle
+          unsd/cronicle
+          ghcr.io/xja/cronicle
         tags: |
           type=schedule
           type=ref,event=branch
